@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Hunger Monster</title>
+</head>
+<body>
+  <!-- navbar -->
+  <div class="container">
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="logo.png"></a>
+          <ul class="navbar-nav">
+            <li class="nav-item">HOME</li>
+            <li class="nav-item">ABOUT</li>
+            <li class="nav-item">RECIPES</li>
+            <li class="nav-item">BLOG</li>
+          </ul>
+        </div>
+    </nav>
+  </div>
+
+
+  <!-- main div -->
+  <div id="main_page">
+    <form>
+        <input id="input" type="search" placeholder="Search name..">
+        <button id="button" type="button"  onclick="getValue()">Search</button>
+    </form>
+
+    <div id="items"></div>
+  </div>
+  
+  <!-- single meal full info -->
+  <div id="meal_fullDetails"></div>
+
+    <!-- script file -->
+    <script src="script.js"></script>
+</body>
+</html>

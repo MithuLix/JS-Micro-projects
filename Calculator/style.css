@@ -1,0 +1,23 @@
+* { color: #464646;}
+
+body { background-color: #f3f3f3;}
+
+form {
+    width: 300px; height: 400px; background-color: #fff;
+    padding: 1rem; border-radius: 1rem; box-shadow: .4rem .4rem .5rem #d3d3d3, -.4rem -.4rem .5rem #e0e0e0;
+    margin:5% auto; 
+}
+
+#field {max-width: 85%; padding: .7rem 1rem; font-size: 2rem; margin: .7rem .4rem; border: none; text-align: right;
+    box-shadow:inset -.2rem -.3rem .2rem #e6e6e6,inset .2rem .3rem .2rem #ececec; border-radius: 1rem;
+    background: transparent;
+}
+
+.btn { height: 3rem; width: 3.5rem; border: none; margin: .5rem; font-size: 2rem; border-radius: 1rem;
+    box-shadow: -.1rem -.1rem .2rem #e6e6e6, .1rem .2rem .2rem #e4e4e4; background-color: #fff;
+    cursor: pointer; outline: none;
+}
+
+#btnEq { width: 95%; color: #49e23b; }
+
+#btnC {color: #ff0040;}
